@@ -37,13 +37,10 @@ F 3 "~" H 1500 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1300 2550 1800 2550
-Connection ~ 1800 2550
 Wire Wire Line
 	1300 2650 1800 2650
-Connection ~ 1800 2650
 Wire Wire Line
 	1300 2750 1800 2750
-Connection ~ 1800 2750
 Wire Wire Line
 	1300 2850 1800 2850
 Connection ~ 1800 2850
@@ -61,13 +58,10 @@ Wire Wire Line
 Connection ~ 1800 3250
 Wire Wire Line
 	3600 2550 4100 2550
-Connection ~ 3600 2550
 Wire Wire Line
 	4100 2650 3600 2650
-Connection ~ 3600 2650
 Wire Wire Line
 	3600 2750 4100 2750
-Connection ~ 3600 2750
 Wire Wire Line
 	4100 2850 3600 2850
 Connection ~ 3600 2850
@@ -85,12 +79,9 @@ Wire Wire Line
 Connection ~ 3600 2950
 Connection ~ 4100 2950
 Connection ~ 4100 2850
-Connection ~ 4100 2750
-Connection ~ 4100 2650
 Connection ~ 4100 3250
 Connection ~ 4100 3150
 Connection ~ 4100 3050
-Connection ~ 4100 2550
 Wire Wire Line
 	5350 2950 4850 2950
 Wire Wire Line
@@ -104,13 +95,7 @@ Connection ~ 4850 2850
 Wire Wire Line
 	5350 2750 4850 2750
 Wire Wire Line
-	4100 2750 4850 2750
-Connection ~ 4850 2750
-Wire Wire Line
 	4850 2650 5350 2650
-Wire Wire Line
-	4850 2650 4100 2650
-Connection ~ 4850 2650
 Wire Wire Line
 	4850 3250 5350 3250
 Wire Wire Line
@@ -128,9 +113,6 @@ Wire Wire Line
 Connection ~ 4850 3050
 Wire Wire Line
 	5350 2550 4850 2550
-Wire Wire Line
-	4100 2550 4850 2550
-Connection ~ 4850 2550
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J4
 U 1 1 5CC20F9D
@@ -154,12 +136,6 @@ F 3 "~" H 6200 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 2550 6000 2550
-Wire Wire Line
-	6000 2650 5350 2650
-Wire Wire Line
-	5350 2750 6000 2750
-Wire Wire Line
 	6000 2850 5350 2850
 Wire Wire Line
 	5350 2950 6000 2950
@@ -171,13 +147,10 @@ Wire Wire Line
 	5350 3250 6000 3250
 Wire Wire Line
 	6000 2550 6500 2550
-Connection ~ 6000 2550
 Wire Wire Line
 	6500 2650 6000 2650
-Connection ~ 6000 2650
 Wire Wire Line
 	6000 2750 6500 2750
-Connection ~ 6000 2750
 Wire Wire Line
 	6500 2850 6000 2850
 Connection ~ 6000 2850
@@ -195,12 +168,9 @@ Wire Wire Line
 Connection ~ 6000 2950
 Connection ~ 6500 2950
 Connection ~ 6500 2850
-Connection ~ 6500 2750
-Connection ~ 6500 2650
 Connection ~ 6500 3250
 Connection ~ 6500 3150
 Connection ~ 6500 3050
-Connection ~ 6500 2550
 Wire Wire Line
 	7750 2950 7250 2950
 Wire Wire Line
@@ -214,13 +184,7 @@ Connection ~ 7250 2850
 Wire Wire Line
 	7750 2750 7250 2750
 Wire Wire Line
-	6500 2750 7250 2750
-Connection ~ 7250 2750
-Wire Wire Line
 	7250 2650 7750 2650
-Wire Wire Line
-	7250 2650 6500 2650
-Connection ~ 7250 2650
 Wire Wire Line
 	7250 3250 7750 3250
 Wire Wire Line
@@ -238,9 +202,6 @@ Wire Wire Line
 Connection ~ 7250 3050
 Wire Wire Line
 	7750 2550 7250 2550
-Wire Wire Line
-	6500 2550 7250 2550
-Connection ~ 7250 2550
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J6
 U 1 1 5CC6612A
@@ -252,9 +213,6 @@ F 3 "~" H 7450 2850 50  0001 C CNN
 	1    7450 2850
 	1    0    0    -1  
 $EndComp
-Connection ~ 5350 2550
-Connection ~ 5350 2650
-Connection ~ 5350 2750
 Connection ~ 5350 2850
 Connection ~ 5350 2950
 Connection ~ 5350 3050
@@ -268,19 +226,60 @@ Wire Wire Line
 	1300 3050 1300 2950
 Connection ~ 1300 2950
 Wire Wire Line
-	1800 3050 3600 3050
+	1800 2950 2450 2950
+Connection ~ 2450 2950
 Wire Wire Line
-	1800 3150 3600 3150
+	3600 2850 2950 2850
+Connection ~ 2950 2850
 Wire Wire Line
-	1800 3250 3600 3250
+	2950 2850 2450 2850
 Wire Wire Line
-	1800 2550 3600 2550
+	1800 2850 2450 2850
+Connection ~ 2450 2850
 Wire Wire Line
-	1800 2650 3600 2650
+	2450 2750 2950 2750
 Wire Wire Line
-	1800 2750 3600 2750
+	2450 2650 2950 2650
 Wire Wire Line
-	1800 2850 3600 2850
+	2950 3250 3600 3250
+Connection ~ 2950 3250
 Wire Wire Line
-	1800 2950 3600 2950
+	2950 3250 2450 3250
+Wire Wire Line
+	1800 3250 2450 3250
+Connection ~ 2450 3250
+Wire Wire Line
+	2950 3150 3600 3150
+Connection ~ 2950 3150
+Wire Wire Line
+	2450 3150 2950 3150
+Wire Wire Line
+	1800 3150 2450 3150
+Connection ~ 2450 3150
+Wire Wire Line
+	2950 3050 3600 3050
+Connection ~ 2950 3050
+Wire Wire Line
+	2950 3050 2450 3050
+Wire Wire Line
+	1800 3050 2450 3050
+Connection ~ 2450 3050
+Wire Wire Line
+	2450 2950 2950 2950
+Wire Wire Line
+	2950 2950 3600 2950
+Connection ~ 2950 2950
+Wire Wire Line
+	2450 2550 2950 2550
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J2
+U 1 1 5CC2B337
+P 2650 2850
+F 0 "J2" H 2700 3367 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 2700 3276 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 2650 2850 50  0001 C CNN
+F 3 "~" H 2650 2850 50  0001 C CNN
+	1    2650 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
